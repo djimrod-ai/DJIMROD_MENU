@@ -58,7 +58,7 @@ with col1:
     
     # EL TRUCO: st.switch_page cambia la página inmediatamente
     if st.button("Abrir Hub de Noticias 🚀", use_container_width=True):
-        st.switch_page("pages/app.py")
+        st.switch_page("pages/NOTICIAS.py")
 
 with col2:
     st.markdown("""
@@ -69,7 +69,7 @@ with col2:
         """, unsafe_allow_html=True)
     
     if st.button("Abrir Transcriptor 🚀", use_container_width=True):
-        st.switch_page("pages/api.py")
+        st.switch_page("pages/TRANSCRIPTOR.py")
 
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.info("💡 También puedes navegar utilizando el menú de la izquierda.")
